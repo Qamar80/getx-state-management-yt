@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getx_state_management/example_three_screen.dart';
 import 'package:getx_state_management/example_two_screen.dart';
 import 'package:getx_state_management/home_screen.dart';
 
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
      // home: HomeScreen(),
-      home: ExampleTwoScreen(),
+     // home: ExampleTwoScreen(),
+      home: ExampleThreeScreen(),
     );
   }
 }
