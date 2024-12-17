@@ -3,6 +3,7 @@ import 'package:getx_state_management/example_three_screen.dart';
 import 'package:getx_state_management/example_two_screen.dart';
 import 'package:getx_state_management/favourite_screen.dart';
 import 'package:getx_state_management/home_screen.dart';
+import 'package:getx_state_management/image_picker_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
      // home: HomeScreen(),
      // home: ExampleTwoScreen(),
      // home: ExampleThreeScreen(),
-      home: FavouriteScreen(),
+     // home: FavouriteScreen(),
+      home: ImagePickerScreen(),
     );
   }
 }
