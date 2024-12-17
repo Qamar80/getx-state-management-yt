@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getx_state_management/api_screen.dart';
 import 'package:getx_state_management/example_three_screen.dart';
 import 'package:getx_state_management/example_two_screen.dart';
 import 'package:getx_state_management/favourite_screen.dart';
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
      // home: ExampleTwoScreen(),
      // home: ExampleThreeScreen(),
      // home: FavouriteScreen(),
-      home: ImagePickerScreen(),
+     // home: ImagePickerScreen(),
+      home: ApiScreen(),
     );
   }
 }
